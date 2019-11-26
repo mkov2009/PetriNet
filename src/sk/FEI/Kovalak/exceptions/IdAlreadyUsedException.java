@@ -1,4 +1,4 @@
-package sk.FEI.Kovalak.petrinet;
+package sk.FEI.Kovalak.exceptions;
 
 public class IdAlreadyUsedException extends Exception {
     private String errorMessage;

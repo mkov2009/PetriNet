@@ -9,8 +9,6 @@ import java.util.List;
 public class MyCanvas extends Canvas {
     private List<Element2D> elements2D;
 
-
-
     public MyCanvas() {
         super();
         this.elements2D = new ArrayList<>();

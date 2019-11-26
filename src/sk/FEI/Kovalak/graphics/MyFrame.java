@@ -1,38 +1,58 @@
 package sk.FEI.Kovalak.graphics;
 
-import sk.FEI.Kovalak.generated.Importer;
-import sk.FEI.Kovalak.generated.Transformer;
+import sk.FEI.Kovalak.graphics.buttons.*;
 import sk.FEI.Kovalak.petrinet.*;
 
 import java.awt.*;
 import java.awt.event.*;
-import java.util.ConcurrentModificationException;
-import java.util.List;
 import javax.swing.*;
 
-public class MyFrame extends JFrame implements ActionListener, MouseListener{
+public class MyFrame extends JFrame{
 
 
-    private PetriNet petriNet = new PetriNet();
-    private MyCanvas canvas = new MyCanvas();
-    private JFrame window = new JFrame();
+    private PetriNet petriNet;
+    private MyCanvas canvas;
+    private JFrame window;
+
+    private long idClicked;
+
+    private boolean runState=false;
+
+    public MyFrame(){
+        this.petriNet = new PetriNet();
+        this.canvas = new MyCanvas();
+        this.window = new JFrame();
+        this.idClicked = -1;
+    }
 
     public void frame(){
 
         window.setDefaultCloseOperation(WindowConstants.EXIT_ON_CLOSE);
 
-        Button importButton = new Button("Import");
-        importButton.setBounds(0,0,80,30);
-
-
-        importButton.addActionListener(this);
+        Button importButton = new ImportButton(this,"Import",0,0);
+        Button exportButton = new ExportButton(this,"Export",90,0);
+        Button addPlaceButton = new AddPlaceButton(this,"Add Place",180,0);
+        Button addTransitionButton = new AddTransitionButton(this,"Add Transition", 270,0);
+        Button addEdgeButton = new AddEdgeButton(this, "Add Edge",360,0);
+        Button addResetEdgeButton = new AddResetEdgeButton(this,"Add Reset Edge",450,0);
+        Button plusTokensButton = new PlusButton(this,"Plus",550,0);
+        Button minusTokensButton = new MinusButton(this,"Minus",640,0);
+        Button deleteButton = new DeleteButton(this,"Delete",730,0);
+        Button runButton = new RunButton(this,"Run",820,0);
 
         window.add(importButton);
+        window.add(exportButton);
+        window.add(addPlaceButton);
+        window.add(addTransitionButton);
+        window.add(addEdgeButton);
+        window.add(addResetEdgeButton);
+        window.add(plusTokensButton);
+        window.add(minusTokensButton);
+        window.add(deleteButton);
+        window.add(runButton);
 
         window.setSize(920,640);
         window.setTitle("Petrinet");
-
-        canvas.addMouseListener(this);
 
         window.add(canvas);
 
@@ -41,24 +61,28 @@ public class MyFrame extends JFrame implements ActionListener, MouseListener{
     }
 
 
-    public void actionPerformed(ActionEvent e) {
-        try {
-            FileChooser fileChooser = new FileChooser();
-            Importer importer = new Importer(fileChooser.fileChooser());
-            Transformer transformer = new Transformer(importer);
-            petriNet = transformer.Transformation();
-        }catch (NullPointerException ex){
+    public void _addMouseListener(MouseListener a){
+        canvas.addMouseListener(a);
+        window.add(canvas);
 
-        }
-        draw();
     }
 
+    public void removeMouseListners(){
+        for(MouseListener ml : canvas.getMouseListeners())
+        {
+            canvas.removeMouseListener(ml);
+        }
+    }
 
     public void draw(){
         canvas.clearList();
+        boolean click = false;
 
         for(Place place : petriNet.getPlaces()){
-            Place2D place2D = new Place2D(place.getX(),place.getY(),(int)place.getId());
+            if(place.getId() == idClicked){click = true;}
+            else {click = false;}
+
+            Place2D place2D = new Place2D(place.getX(),place.getY(),(int)place.getId(),click);
             canvas.addElement2D(place2D);
 
             Text2D text2D = new Text2D((place.getX()),place.getY()+50,place.getName());
@@ -70,9 +94,11 @@ public class MyFrame extends JFrame implements ActionListener, MouseListener{
         }
 
         for(Transition transition :  petriNet.getTransitions()){
+            if(transition.getId() == idClicked){click = true;}
+            else {click = false;}
             petriNet.runnability(transition.getId());
 
-            Transition2D transition2D = new Transition2D(transition.getX(), transition.getY(),transition.isRunnable(),(int)transition.getId());
+            Transition2D transition2D = new Transition2D(transition.getX(), transition.getY(),transition.isRunnable(),(int)transition.getId(),runState,click);
             canvas.addElement2D(transition2D);
 
 
@@ -83,26 +109,29 @@ public class MyFrame extends JFrame implements ActionListener, MouseListener{
         for(EdgePlaceToTransition edgePlaceToTransition : petriNet.getEdgesPlaceToTransition()){
             Place place = petriNet.getPlace(edgePlaceToTransition.getIdOfPlace());
             Transition transition = petriNet.getTransition(edgePlaceToTransition.getIdOfTransition());
-
-            Edge2D edge2D = new Edge2D(place.getX(),place.getY(),transition.getX(),transition.getY(),false,""+edgePlaceToTransition.getWeight());
-            canvas.addElement2D(edge2D);
+            if(place!=null && transition!=null) {
+                Edge2D edge2D = new Edge2D(edgePlaceToTransition.getId(),place.getX(), place.getY(), transition.getX(), transition.getY(), false, "" + edgePlaceToTransition.getWeight());
+                canvas.addElement2D(edge2D);
+            }
         }
 
         for(EdgeTransitionToPlace edgeTransitionToPlace : petriNet.getEdgesTransitionToPlace()){
             Place place = petriNet.getPlace(edgeTransitionToPlace.getIdOfPlace());
             Transition transition = petriNet.getTransition(edgeTransitionToPlace.getIdOfTransition());
 
-
-            Edge2D edge2D = new Edge2D(transition.getX(),transition.getY(),place.getX(),place.getY(),false,""+edgeTransitionToPlace.getWeight());
-            canvas.addElement2D(edge2D);
+            if(place!=null && transition!=null) {
+                Edge2D edge2D = new Edge2D(edgeTransitionToPlace.getId(), transition.getX(), transition.getY(), place.getX(), place.getY(), false, "" + edgeTransitionToPlace.getWeight());
+                canvas.addElement2D(edge2D);
+            }
         }
 
         for(EdgeReset edgeReset : petriNet.getEdgesReset()){
             Place place = petriNet.getPlace(edgeReset.getIdOfPlace());
             Transition transition = petriNet.getTransition(edgeReset.getIdOfTransition());
-
-            Edge2D edge2D = new Edge2D(place.getX(),place.getY(),transition.getX(),transition.getY(),true,"");
-            canvas.addElement2D(edge2D);
+            if(place!=null && transition!=null) {
+                Edge2D edge2D = new Edge2D(edgeReset.getId(), place.getX(), place.getY(), transition.getX(), transition.getY(), true, "");
+                canvas.addElement2D(edge2D);
+            }
         }
 
         window.add(canvas);
@@ -110,38 +139,28 @@ public class MyFrame extends JFrame implements ActionListener, MouseListener{
 
     }
 
-    public void mouseClicked(MouseEvent e){
-        List<Element2D> element2DS = canvas.getElements2D();
-        int x = e.getX();
-        int y = e.getY();
-        try{
-        for(Element2D element2D: element2DS) {
-            long id = element2D.onClick(x,y);
-            if(id!=-1){
-                if(petriNet.getTransition(id)!=null){
-                    petriNet.runTransition(id);
-                    draw();
-                }
-            }
-        }
-        }
-        catch (ConcurrentModificationException ex){
-            ex.getMessage();
-        }
+    public boolean isRunState() {
+        return runState;
     }
 
-    public void mousePressed(MouseEvent e) {
-
-    }
-    public void mouseReleased(MouseEvent e) {
-
-    }
-    public void mouseEntered(MouseEvent e) {
-
+    public void setRunState(boolean runState) {
+        this.runState = runState;
     }
 
-    public void mouseExited(MouseEvent e) {
 
+    public MyCanvas getCanvas() {
+        return canvas;
     }
 
+    public PetriNet getPetriNet() {
+        return petriNet;
+    }
+
+    public void setPetriNet(PetriNet petriNet) {
+        this.petriNet = petriNet;
+    }
+
+    public void setIdClicked(long idClicked) {
+        this.idClicked = idClicked;
+    }
 }

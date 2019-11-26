@@ -1,6 +1,6 @@
-package sk.FEI.Kovalak.petrinet;
+package sk.FEI.Kovalak.exceptions;
 
-public class WrongMarkingException extends Exception {
+public class ObjectAlreadyExistsException extends Exception {
     private String errorMessage;
 
     public String getErrorMessage() {
@@ -11,8 +11,7 @@ public class WrongMarkingException extends Exception {
         this.errorMessage = errorMessage;
     }
 
-    public WrongMarkingException(String errorMessage){
+    public ObjectAlreadyExistsException(String errorMessage){
         this.setErrorMessage(errorMessage);
     }
-
 }

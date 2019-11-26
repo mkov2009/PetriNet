@@ -1,6 +1,6 @@
-package sk.FEI.Kovalak.petrinet;
+package sk.FEI.Kovalak.exceptions;
 
-public class SameTypeElementException extends Exception{
+public class MissingElementException extends Exception {
     private String errorMessage;
 
     public String getErrorMessage() {
@@ -11,7 +11,7 @@ public class SameTypeElementException extends Exception{
         this.errorMessage = errorMessage;
     }
 
-    public SameTypeElementException(String errorMessage){
+    public MissingElementException(String errorMessage){
         this.setErrorMessage(errorMessage);
-    }
+}
 }

@@ -1,5 +1,7 @@
 package sk.FEI.Kovalak.petrinet;
 
+import sk.FEI.Kovalak.exceptions.WrongMarkingException;
+
 public class Place extends Base{
     private long marking;
 

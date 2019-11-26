@@ -57,6 +57,7 @@ public class Place {
     @XmlElement(name = "static")
     protected Boolean _static;
 
+
     /**
      * Gets the value of the id property.
      *

@@ -2,14 +2,16 @@ package sk.FEI.Kovalak.graphics;
 
 import java.awt.*;
 import java.awt.geom.AffineTransform;
+import java.awt.geom.Line2D;
 
 public class Edge2D extends Element2D {
 
     private int x2,y2;
+    private int nX1,nY1,nX2,nY2;
     private boolean reset;
     private String multiplicity;
-    public Edge2D(int x, int y, int x2, int y2, boolean reset, String multiplicity) {
-        super(x, y,0);
+    public Edge2D(long id, int x, int y, int x2, int y2, boolean reset, String multiplicity) {
+        super(x, y, id);
         this.x2 = x2;
         this.y2 = y2;
         this.reset = reset;
@@ -74,6 +76,10 @@ public class Edge2D extends Element2D {
             up = 10;
 
         }
+        this.nX1 = x1;
+        this.nY1 = y1;
+        this.nX2 = x2;
+        this.nY2 = y2;
 
         g1.drawString(multiplicity, ((x1 + x2) / 2) - left, ((y1 + y2) / 2) - up);
 
@@ -84,6 +90,20 @@ public class Edge2D extends Element2D {
         g.drawLine(0, 0, len, 0);
         g.fillPolygon(new int[] {len, len-ARR_SIZE, len-ARR_SIZE, len},
                 new int[] {0, -ARR_SIZE, ARR_SIZE, 0}, 4);
+    }
+
+    public long onClick(int x, int y){
+        if(contains(x,y)){
+            return this.getId();
+        }
+        return -1;
+    }
+
+    public boolean contains(int x,int y){
+        if(new Line2D.Double(nX1,nY1,nX2,nY2).intersects(x-7,y-7,15,15)){
+            return true;
+        }
+        return false;
     }
 
 

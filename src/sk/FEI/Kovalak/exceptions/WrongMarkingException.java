@@ -1,6 +1,6 @@
-package sk.FEI.Kovalak.petrinet;
+package sk.FEI.Kovalak.exceptions;
 
-public class TransitionNotRunnableException extends Exception{
+public class WrongMarkingException extends Exception {
     private String errorMessage;
 
     public String getErrorMessage() {
@@ -11,7 +11,8 @@ public class TransitionNotRunnableException extends Exception{
         this.errorMessage = errorMessage;
     }
 
-    public TransitionNotRunnableException(String errorMessage){
+    public WrongMarkingException(String errorMessage){
         this.setErrorMessage(errorMessage);
     }
+
 }

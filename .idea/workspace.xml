@@ -9,13 +9,124 @@
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
+  <component name="DefaultGradleProjectSettings">
+    <option name="isMigrated" value="true" />
+  </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/sk/FEI/Kovalak/Main.java">
+        <entry file="file://$PROJECT_DIR$/src/sk/FEI/Kovalak/graphics/MyFrame.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="289">
-              <caret line="17" lean-forward="true" selection-start-line="17" selection-end-line="17" />
+            <state relative-caret-position="841">
+              <caret line="97" column="33" selection-start-line="97" selection-start-column="33" selection-end-line="97" selection-end-column="33" />
+              <folding>
+                <element signature="imports" expanded="true" />
+                <element signature="e#5162#5163#0" expanded="true" />
+                <element signature="e#5193#5194#0" expanded="true" />
+                <element signature="e#5242#5243#0" expanded="true" />
+                <element signature="e#5282#5283#0" expanded="true" />
+                <element signature="e#5318#5319#0" expanded="true" />
+                <element signature="e#5347#5348#0" expanded="true" />
+                <element signature="e#5384#5385#0" expanded="true" />
+                <element signature="e#5415#5416#0" expanded="true" />
+                <element signature="e#5465#5466#0" expanded="true" />
+                <element signature="e#5505#5506#0" expanded="true" />
+                <element signature="e#5553#5554#0" expanded="true" />
+                <element signature="e#5595#5596#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/sk/FEI/Kovalak/graphics/MyCanvas.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="442">
+              <caret line="36" selection-start-line="36" selection-end-line="36" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/sk/FEI/Kovalak/graphics/buttons/BaseButton.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="340">
+              <caret line="24" selection-start-line="24" selection-end-line="24" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/sk/FEI/Kovalak/graphics/buttons/PlusButton.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="272">
+              <caret line="20" column="5" selection-start-line="14" selection-start-column="3" selection-end-line="20" selection-end-column="5" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/sk/FEI/Kovalak/graphics/mouseListeners/AddPlaceML.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="68">
+              <caret line="8" column="13" selection-start-line="8" selection-start-column="13" selection-end-line="8" selection-end-column="13" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/sk/FEI/Kovalak/graphics/IdGenerator.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="68">
+              <caret line="5" column="13" selection-start-line="5" selection-start-column="13" selection-end-line="5" selection-end-column="13" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/sk/FEI/Kovalak/graphics/Element2D.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="646">
+              <caret line="38" column="5" selection-start-line="38" selection-start-column="5" selection-end-line="38" selection-end-column="5" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/sk/FEI/Kovalak/graphics/mouseListeners/AddResetEdgeML.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="102">
+              <caret line="6" column="39" selection-start-line="6" selection-start-column="39" selection-end-line="6" selection-end-column="39" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/sk/FEI/Kovalak/graphics/Place2D.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="425">
+              <caret line="27" column="1" selection-start-line="27" selection-start-column="1" selection-end-line="27" selection-end-column="1" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/sk/FEI/Kovalak/graphics/mouseListeners/MouseListenerComponent.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="561">
+              <caret line="41" selection-start-line="41" selection-end-line="41" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -29,60 +140,63 @@
       </list>
     </option>
   </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/sk/FEI/Kovalak/TransitionNotRunnableException.java" />
-        <option value="$PROJECT_DIR$/src/sk/FEI/Kovalak/SameTypeEdgeException.java" />
-        <option value="$PROJECT_DIR$/src/sk/FEI/Kovalak/MissingElementException.java" />
-        <option value="$PROJECT_DIR$/src/sk/FEI/Kovalak/SameTypeElementException.java" />
-        <option value="$PROJECT_DIR$/src/sk/FEI/Kovalak/EdgeTransitionToPlace.java" />
-        <option value="$PROJECT_DIR$/src/sk/FEI/Kovalak/EdgePlaceToTransition.java" />
-        <option value="$PROJECT_DIR$/src/sk/FEI/Kovalak/Edge.java" />
-        <option value="$PROJECT_DIR$/src/sk/FEI/Kovalak/EdgeWeight.java" />
-        <option value="$PROJECT_DIR$/src/sk/FEI/Kovalak/EdgeReset.java" />
-        <option value="$PROJECT_DIR$/src/sk/FEI/Kovalak/Base.java" />
-        <option value="$PROJECT_DIR$/src/sk/FEI/Kovalak/Transition.java" />
-        <option value="$PROJECT_DIR$/src/sk/FEI/Kovalak/Place.java" />
-        <option value="$PROJECT_DIR$/src/sk/FEI/Kovalak/PetriNet/PetriNet.java" />
-        <option value="$PROJECT_DIR$/src/sk/FEI/Kovalak/PetriNet.java" />
-        <option value="$PROJECT_DIR$/../Java/jaxb-generator/src/main/java/sk/stuba/fei/oop/Main.java" />
-        <option value="$PROJECT_DIR$/src/sk/FEI/Kovalak/petrinet/Main.java" />
-        <option value="$PROJECT_DIR$/src/sk/FEI/Kovalak/generated/Arc.java" />
-        <option value="$PROJECT_DIR$/src/sk/FEI/Kovalak/generated/BreakPoint.java" />
-        <option value="$PROJECT_DIR$/src/sk/FEI/Kovalak/generated/Document.java" />
-        <option value="$PROJECT_DIR$/src/sk/FEI/Kovalak/generated/ObjectFactory.java" />
+        <option value="$PROJECT_DIR$/src/sk/FEI/Kovalak/graphics/Buttons/plusTokensButton.java" />
+        <option value="$PROJECT_DIR$/src/sk/FEI/Kovalak/graphics/actionListeners/ImportAL.java" />
+        <option value="$PROJECT_DIR$/src/sk/FEI/Kovalak/graphics/actionListeners/AddPlaceAL.java" />
+        <option value="$PROJECT_DIR$/src/sk/FEI/Kovalak/graphics/mouseListeners/MouseListenerComponent.java" />
+        <option value="$PROJECT_DIR$/src/sk/FEI/Kovalak/graphics/actionListeners/AddTransitionAL.java" />
+        <option value="$PROJECT_DIR$/src/sk/FEI/Kovalak/petrinet/EdgeReset.java" />
+        <option value="$PROJECT_DIR$/src/sk/FEI/Kovalak/petrinet/EdgePlaceToTransition.java" />
+        <option value="$PROJECT_DIR$/src/sk/FEI/Kovalak/petrinet/EdgeTransitionToPlace.java" />
+        <option value="$PROJECT_DIR$/src/sk/FEI/Kovalak/petrinet/Edge.java" />
+        <option value="$PROJECT_DIR$/src/sk/FEI/Kovalak/graphics/mouseListeners/AddPlaceML.java" />
+        <option value="$PROJECT_DIR$/src/sk/FEI/Kovalak/graphics/mouseListeners/AddTransitionML.java" />
+        <option value="$PROJECT_DIR$/src/sk/FEI/Kovalak/graphics/mouseListeners/RunML.java" />
+        <option value="$PROJECT_DIR$/src/sk/FEI/Kovalak/graphics/IdGenerator.java" />
+        <option value="$PROJECT_DIR$/src/sk/FEI/Kovalak/graphics/Buttons/PlusTokensButton.java" />
+        <option value="$PROJECT_DIR$/src/sk/FEI/Kovalak/graphics/mouseListeners/PlusTokensML.java" />
+        <option value="$PROJECT_DIR$/src/sk/FEI/Kovalak/graphics/Buttons/MinusTokenButton.java" />
+        <option value="$PROJECT_DIR$/src/sk/FEI/Kovalak/graphics/mouseListeners/SetMultiplicityML.java" />
+        <option value="$PROJECT_DIR$/src/sk/FEI/Kovalak/graphics/mouseListeners/MinusTokensML.java" />
+        <option value="$PROJECT_DIR$/src/sk/FEI/Kovalak/petrinet/EdgeWeight.java" />
+        <option value="$PROJECT_DIR$/src/sk/FEI/Kovalak/graphics/Edge2D.java" />
+        <option value="$PROJECT_DIR$/src/sk/FEI/Kovalak/graphics/mouseListeners/PlusML.java" />
+        <option value="$PROJECT_DIR$/src/sk/FEI/Kovalak/graphics/mouseListeners/MinusML.java" />
+        <option value="$PROJECT_DIR$/src/sk/FEI/Kovalak/graphics/Buttons/SetMultiplicityButton.java" />
+        <option value="$PROJECT_DIR$/src/sk/FEI/Kovalak/graphics/mouseListeners/DeleteML.java" />
+        <option value="$PROJECT_DIR$/src/sk/FEI/Kovalak/petrinet/ObjectAlreadyExistsException.java" />
+        <option value="$PROJECT_DIR$/src/sk/FEI/Kovalak/Exceptions/WrongTypeElementException.java" />
         <option value="$PROJECT_DIR$/src/sk/FEI/Kovalak/generated/Place.java" />
         <option value="$PROJECT_DIR$/src/sk/FEI/Kovalak/generated/Transition.java" />
-        <option value="$PROJECT_DIR$/src/sk/FEI/Kovalak/generated/ArcType.java" />
-        <option value="$PROJECT_DIR$/src/sk/FEI/Kovalak/generated/FileChooser.java" />
-        <option value="$PROJECT_DIR$/src/sk/FEI/Kovalak/graphics/Color.java" />
-        <option value="$PROJECT_DIR$/src/sk/FEI/Kovalak/graphics/Ellipse.java" />
-        <option value="$PROJECT_DIR$/src/sk/FEI/Kovalak/graphics/Line.java" />
-        <option value="$PROJECT_DIR$/src/sk/FEI/Kovalak/graphics/Shape.java" />
-        <option value="$PROJECT_DIR$/src/sk/FEI/Kovalak/graphics/Canvas.java" />
-        <option value="$PROJECT_DIR$/src/sk/FEI/Kovalak/graphics/Drawing.java" />
-        <option value="$PROJECT_DIR$/src/sk/FEI/Kovalak/graphics/Rectangle.java" />
-        <option value="$PROJECT_DIR$/src/sk/FEI/Kovalak/graphics/Frame.java" />
-        <option value="$PROJECT_DIR$/src/sk/FEI/Kovalak/graphics/Transition.java" />
-        <option value="$PROJECT_DIR$/src/sk/FEI/Kovalak/petrinet/Base.java" />
-        <option value="$PROJECT_DIR$/src/sk/FEI/Kovalak/petrinet/Place.java" />
-        <option value="$PROJECT_DIR$/src/sk/FEI/Kovalak/petrinet/Transition.java" />
-        <option value="$PROJECT_DIR$/src/sk/FEI/Kovalak/graphics/Edge.java" />
-        <option value="$PROJECT_DIR$/src/sk/FEI/Kovalak/graphics/Transition2DRunnable.java" />
-        <option value="$PROJECT_DIR$/src/sk/FEI/Kovalak/graphics/Text.java" />
-        <option value="$PROJECT_DIR$/src/sk/FEI/Kovalak/graphics/Element2D.java" />
-        <option value="$PROJECT_DIR$/src/sk/FEI/Kovalak/graphics/MyCanvas.java" />
-        <option value="$PROJECT_DIR$/src/sk/FEI/Kovalak/petrinet/PetriNet.java" />
-        <option value="$PROJECT_DIR$/src/sk/FEI/Kovalak/graphics/FileChooser.java" />
+        <option value="$PROJECT_DIR$/src/sk/FEI/Kovalak/generated/Document.java" />
         <option value="$PROJECT_DIR$/src/sk/FEI/Kovalak/generated/Transformer.java" />
-        <option value="$PROJECT_DIR$/src/sk/FEI/Kovalak/graphics/Text2D.java" />
-        <option value="$PROJECT_DIR$/src/sk/FEI/Kovalak/graphics/Place2D.java" />
-        <option value="$PROJECT_DIR$/src/sk/FEI/Kovalak/graphics/Edge2D.java" />
-        <option value="$PROJECT_DIR$/src/sk/FEI/Kovalak/graphics/Transition2D.java" />
+        <option value="$PROJECT_DIR$/src/sk/FEI/Kovalak/generated/Exporter.java" />
+        <option value="$PROJECT_DIR$/src/sk/FEI/Kovalak/graphics/FileChooser.java" />
         <option value="$PROJECT_DIR$/src/sk/FEI/Kovalak/graphics/MyFrame.java" />
+        <option value="$PROJECT_DIR$/src/sk/FEI/Kovalak/petrinet/PetriNet.java" />
         <option value="$PROJECT_DIR$/src/sk/FEI/Kovalak/Main.java" />
-        <option value="$PROJECT_DIR$/src/sk/FEI/Kovalak/generated/Importer.java" />
+        <option value="$PROJECT_DIR$/src/sk/FEI/Kovalak/graphics/Transition2D.java" />
+        <option value="$PROJECT_DIR$/src/sk/FEI/Kovalak/graphics/Buttons/BaseButton.java" />
+        <option value="$PROJECT_DIR$/src/sk/FEI/Kovalak/graphics/Buttons/RunButton.java" />
+        <option value="$PROJECT_DIR$/src/sk/FEI/Kovalak/graphics/Buttons/PlusButton.java" />
+        <option value="$PROJECT_DIR$/src/sk/FEI/Kovalak/graphics/Buttons/MinusButton.java" />
+        <option value="$PROJECT_DIR$/src/sk/FEI/Kovalak/graphics/Buttons/ImportButton.java" />
+        <option value="$PROJECT_DIR$/src/sk/FEI/Kovalak/graphics/Buttons/ExportButton.java" />
+        <option value="$PROJECT_DIR$/src/sk/FEI/Kovalak/graphics/Buttons/DeleteButton.java" />
+        <option value="$PROJECT_DIR$/src/sk/FEI/Kovalak/graphics/Buttons/AddTransitionButton.java" />
+        <option value="$PROJECT_DIR$/src/sk/FEI/Kovalak/graphics/Buttons/AddPlaceButton.java" />
+        <option value="$PROJECT_DIR$/src/sk/FEI/Kovalak/graphics/Buttons/AddEdgeButton.java" />
+        <option value="$PROJECT_DIR$/src/sk/FEI/Kovalak/graphics/Buttons/AddResetEdgeButton.java" />
+        <option value="$PROJECT_DIR$/src/sk/FEI/Kovalak/graphics/Place2D.java" />
+        <option value="$PROJECT_DIR$/src/sk/FEI/Kovalak/graphics/Element2D.java" />
+        <option value="$PROJECT_DIR$/src/sk/FEI/Kovalak/graphics/mouseListeners/AddEdgeML.java" />
+        <option value="$PROJECT_DIR$/src/sk/FEI/Kovalak/graphics/mouseListeners/AddResetEdgeML.java" />
       </list>
     </option>
   </component>
@@ -93,16 +207,17 @@
     </treeState>
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="1912" />
-    <option name="y" value="-8" />
-    <option name="width" value="1936" />
-    <option name="height" value="1056" />
+    <option name="x" value="240" />
+    <option name="y" value="127" />
+    <option name="width" value="1440" />
+    <option name="height" value="774" />
   </component>
   <component name="ProjectView">
     <navigator proportions="" version="1">
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -132,7 +247,7 @@
               <item name="PetriNet" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="Kovalak" type="462c0819:PsiDirectoryNode" />
-              <item name="generated" type="462c0819:PsiDirectoryNode" />
+              <item name="graphics" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="PetriNet" type="b2602c69:ProjectViewProjectNode" />
@@ -140,16 +255,25 @@
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="Kovalak" type="462c0819:PsiDirectoryNode" />
               <item name="graphics" type="462c0819:PsiDirectoryNode" />
+              <item name="buttons" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="PetriNet" type="b2602c69:ProjectViewProjectNode" />
+              <item name="PetriNet" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="Kovalak" type="462c0819:PsiDirectoryNode" />
+              <item name="graphics" type="462c0819:PsiDirectoryNode" />
+              <item name="mouseListeners" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
       <pane id="Scope" />
-      <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
     <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1555607204565" />
@@ -157,6 +281,7 @@
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
+    <property name="settings.editor.selected.configurable" value="vcs.Git" />
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -209,16 +334,24 @@
       <workItem from="1555596959557" duration="7021000" />
       <workItem from="1555607021697" duration="79000" />
       <workItem from="1555607196490" duration="33000" />
+      <workItem from="1557423804653" duration="179000" />
+      <workItem from="1557424446319" duration="14420000" />
+      <workItem from="1557578466689" duration="20226000" />
+      <workItem from="1557649925583" duration="19533000" />
+      <workItem from="1557688604476" duration="1131000" />
+      <workItem from="1558332384225" duration="3405000" />
+      <workItem from="1561831809028" duration="71000" />
+      <workItem from="1562701160613" duration="598000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="99039000" />
+    <option name="totallyTimeSpent" value="158602000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="1912" y="-8" width="1936" height="1056" extended-state="6" />
+    <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.14179105" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.119936034" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -227,7 +360,7 @@
       <window_info id="Favorites" order="6" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.32936078" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.2611051" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.26062322" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.3997833" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -248,143 +381,256 @@
       <window_info anchor="right" id="Capture Analysis" order="7" />
       <window_info anchor="right" id="Palette&#9;" order="8" />
     </layout>
-    <layout-to-restore>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.13859275" />
-      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
-      <window_info id="Image Layers" order="2" />
-      <window_info id="Designer" order="3" />
-      <window_info id="UI Designer" order="4" />
-      <window_info id="Capture Tool" order="5" />
-      <window_info id="Favorites" order="6" side_tool="true" />
-      <window_info anchor="bottom" id="Message" order="0" />
-      <window_info anchor="bottom" id="Find" order="1" weight="0.32936078" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.2611051" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.3997833" />
-      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
-      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
-      <window_info anchor="bottom" id="TODO" order="6" />
-      <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Version Control" order="8" />
-      <window_info anchor="bottom" id="Database Changes" order="9" />
-      <window_info anchor="bottom" id="Terminal" order="10" />
-      <window_info anchor="bottom" id="Event Log" order="11" sideWeight="0.50053304" side_tool="true" weight="0.20368364" />
-      <window_info anchor="bottom" id="Messages" order="12" weight="0.32936078" />
-      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
-      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
-      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
-      <window_info anchor="right" id="Palette" order="3" />
-      <window_info anchor="right" id="Database" order="4" />
-      <window_info anchor="right" id="Theme Preview" order="5" />
-      <window_info anchor="right" id="Maven" order="6" weight="0.32995737" />
-      <window_info anchor="right" id="Capture Analysis" order="7" />
-      <window_info anchor="right" id="Palette&#9;" order="8" />
-    </layout-to-restore>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$USER_HOME$/AppData/Local/Temp/Rar$DIa6608.4938/GeomTvar.java" />
-    <entry file="file://$USER_HOME$/AppData/Local/Temp/Rar$DIa6608.47549/MyCanvas.java" />
-    <entry file="jar://C:/Program Files/Java/jdk1.8.0_191/src.zip!/java/awt/event/MouseListener.java">
+    <entry file="file://$PROJECT_DIR$/src/sk/FEI/Kovalak/graphics/mouseListeners/PlusML.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="677">
-          <caret line="77" column="16" selection-start-line="77" selection-start-column="16" selection-end-line="77" selection-end-column="16" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$USER_HOME$/AppData/Local/Temp/Rar$DIa6608.19008/MyCanvas.java" />
-    <entry file="file://$USER_HOME$/AppData/Local/Temp/Rar$DIa6608.23099/Doucovanie.java" />
-    <entry file="file://$USER_HOME$/AppData/Local/Temp/Rar$DIa9520.41112/Main.java" />
-    <entry file="file://$PROJECT_DIR$/src/sk/FEI/Kovalak/graphics/Rectangle.java" />
-    <entry file="file://$USER_HOME$/AppData/Local/Temp/Rar$DIa6584.24247/Stvorec.java" />
-    <entry file="file://$USER_HOME$/AppData/Local/Temp/Rar$DIa6584.24176/Kruh.java" />
-    <entry file="file://$USER_HOME$/AppData/Local/Temp/Rar$DIa6584.23930/GeomTvar.java" />
-    <entry file="file://$USER_HOME$/AppData/Local/Temp/Rar$DIa6584.8253/MyCanvas.java" />
-    <entry file="file://$USER_HOME$/AppData/Local/Temp/Rar$DIa6584.17599/Doucovanie.java" />
-    <entry file="file://$PROJECT_DIR$/src/sk/FEI/Kovalak/petrinet/Base.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="136">
-          <caret line="8" column="49" selection-start-line="8" selection-start-column="49" selection-end-line="8" selection-end-column="49" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/sk/FEI/Kovalak/petrinet/Place.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="348">
-          <caret line="36" column="21" selection-start-line="36" selection-start-column="21" selection-end-line="36" selection-end-column="21" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$USER_HOME$/AppData/Local/Temp/Rar$DIa6584.29724/Doucovanie.java" />
-    <entry file="file://$USER_HOME$/AppData/Local/Temp/Rar$DIa6584.47647/GeomTvar.java" />
-    <entry file="file://$USER_HOME$/AppData/Local/Temp/Rar$DIa6584.47402/MyCanvas.java" />
-    <entry file="file://$USER_HOME$/AppData/Local/Temp/Rar$DIa6584.44426/Doucovanie.java" />
-    <entry file="file://$USER_HOME$/AppData/Local/Temp/Rar$DIa6584.18477/Doucovanie.java" />
-    <entry file="file://$PROJECT_DIR$/src/sk/FEI/Kovalak/graphics/Edge.java" />
-    <entry file="file://$USER_HOME$/AppData/Local/Temp/Rar$DIa7800.18597/Main.java" />
-    <entry file="file://$USER_HOME$/AppData/Local/Temp/Rar$DIa7800.17084/MojePlatno.java" />
-    <entry file="jar://C:/Program Files/Java/jdk1.8.0_191/src.zip!/java/awt/Canvas.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="219">
-          <caret line="120" column="16" selection-start-line="120" selection-start-column="16" selection-end-line="120" selection-end-column="16" />
+        <state relative-caret-position="583">
+          <caret line="45" column="13" lean-forward="true" selection-start-line="45" selection-start-column="13" selection-end-line="45" selection-end-column="13" />
           <folding>
-            <element signature="e#3139#3140#0" expanded="true" />
-            <element signature="e#3187#3188#0" expanded="true" />
+            <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/sk/FEI/Kovalak/graphics/Transition2DRunnable.java" />
-    <entry file="file://$USER_HOME$/AppData/Local/Temp/Rar$DIa608.906/GeomTvar.java" />
-    <entry file="file://$USER_HOME$/AppData/Local/Temp/Rar$DIa608.48939/MyCanvas.java" />
-    <entry file="file://$PROJECT_DIR$/src/sk/FEI/Kovalak/petrinet/Transition.java">
+    <entry file="file://$PROJECT_DIR$/src/sk/FEI/Kovalak/graphics/mouseListeners/MinusML.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="357">
-          <caret line="31" lean-forward="true" selection-start-line="31" selection-end-line="31" />
+        <state relative-caret-position="731">
+          <caret line="45" column="64" lean-forward="true" selection-start-line="45" selection-start-column="64" selection-end-line="45" selection-end-column="64" />
           <folding>
-            <element signature="e#164#165#0" expanded="true" />
-            <element signature="e#201#202#0" expanded="true" />
+            <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$USER_HOME$/Downloads/Arrow.java">
+    <entry file="file://$PROJECT_DIR$/src/sk/FEI/Kovalak/graphics/Buttons/SetMultiplicityButton.java" />
+    <entry file="file://$PROJECT_DIR$/src/sk/FEI/Kovalak/petrinet/EdgeWeight.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="595">
-          <caret line="37" lean-forward="true" selection-start-line="37" selection-end-line="37" />
+        <state relative-caret-position="255">
+          <caret line="19" column="38" selection-start-line="19" selection-start-column="38" selection-end-line="19" selection-end-column="38" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/sk/FEI/Kovalak/petrinet/EdgePlaceToTransition.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="119">
+          <caret line="7" column="1" lean-forward="true" selection-start-line="7" selection-start-column="1" selection-end-line="7" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/sk/FEI/Kovalak/graphics/mouseListeners/DeleteML.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2142">
+          <caret line="128" column="9" lean-forward="true" selection-start-line="128" selection-start-column="9" selection-end-line="128" selection-end-column="9" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/sk/FEI/Kovalak/exceptions/IdAlreadyUsedException.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="34">
           <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
         </state>
       </provider>
     </entry>
-    <entry file="jar://C:/Program Files/Java/jdk1.8.0_191/src.zip!/java/util/ArrayList.java">
+    <entry file="file://$PROJECT_DIR$/src/sk/FEI/Kovalak/exceptions/MissingElementException.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="211">
-          <caret line="908" column="59" selection-start-line="908" selection-start-column="26" selection-end-line="908" selection-end-column="59" />
+        <state relative-caret-position="34">
+          <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
         </state>
       </provider>
     </entry>
-    <entry file="jar://C:/Program Files/Java/jdk1.8.0_191/src.zip!/java/awt/Button.java">
+    <entry file="file://$PROJECT_DIR$/src/sk/FEI/Kovalak/exceptions/TransitionNotRunnableException.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="211">
-          <caret line="408" selection-start-line="408" selection-end-line="408" />
+        <state relative-caret-position="34">
+          <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/sk/FEI/Kovalak/exceptions/WrongMarkingException.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="34">
+          <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/sk/FEI/Kovalak/exceptions/SameTypeElementException.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="34">
+          <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/sk/FEI/Kovalak/exceptions/ObjectAlreadyExistsException.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="289">
+          <caret line="17" lean-forward="true" selection-start-line="17" selection-end-line="17" />
+          <folding>
+            <element signature="e#166#167#0" expanded="true" />
+            <element signature="e#201#202#0" expanded="true" />
+            <element signature="e#258#259#0" expanded="true" />
+            <element signature="e#306#307#0" expanded="true" />
+            <element signature="e#363#364#0" expanded="true" />
+            <element signature="e#413#414#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/sk/FEI/Kovalak/exceptions/WrongTypeElementException.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="289">
+          <caret line="17" lean-forward="true" selection-start-line="17" selection-end-line="17" />
+          <folding>
+            <element signature="e#166#167#0" expanded="true" />
+            <element signature="e#201#202#0" expanded="true" />
+            <element signature="e#258#259#0" expanded="true" />
+            <element signature="e#306#307#0" expanded="true" />
+            <element signature="e#369#370#0" expanded="true" />
+            <element signature="e#419#420#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/sk/FEI/Kovalak/generated/Arc.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="357">
+          <caret line="46" column="13" selection-start-line="46" selection-start-column="13" selection-end-line="46" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/sk/FEI/Kovalak/generated/ArcType.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="56">
+          <caret line="27" column="12" selection-start-line="27" selection-start-column="12" selection-end-line="27" selection-end-column="12" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/sk/FEI/Kovalak/generated/BreakPoint.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="219">
+          <caret line="34" column="13" selection-start-line="34" selection-start-column="13" selection-end-line="34" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/AppData/Local/Temp/Rar$DIa6552.23085/Document.java" />
+    <entry file="file://$PROJECT_DIR$/src/sk/FEI/Kovalak/generated/Place.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="294">
+          <caret line="58" selection-start-line="58" selection-end-line="58" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/sk/FEI/Kovalak/generated/Transition.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="158">
+          <caret line="46" column="4" selection-start-line="46" selection-start-column="4" selection-end-line="46" selection-end-column="4" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/sk/FEI/Kovalak/generated/ObjectFactory.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="85">
+          <caret line="59" lean-forward="true" selection-start-line="59" selection-end-line="59" />
+          <folding>
+            <element signature="e#1908#1909#0" expanded="true" />
+            <element signature="e#1947#1948#0" expanded="true" />
+            <element signature="e#2048#2049#0" expanded="true" />
+            <element signature="e#2082#2083#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/sk/FEI/Kovalak/generated/Document.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="418">
+          <caret line="131" column="5" selection-start-line="131" selection-start-column="5" selection-end-line="131" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/sk/FEI/Kovalak/generated/Importer.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="408">
+          <caret line="30" lean-forward="true" selection-start-line="30" selection-end-line="30" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#356#357#0" expanded="true" />
+            <element signature="e#388#389#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/sk/FEI/Kovalak/generated/Transformer.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="391">
+          <caret line="52" column="46" selection-start-line="52" selection-start-column="46" selection-end-line="52" selection-end-column="46" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="method#Transformation#0;class#Transformer#0" />
+            <element signature="method#transformationToDocument#0;class#Transformer#0" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/sk/FEI/Kovalak/generated/Exporter.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="481">
+          <caret line="30" column="9" lean-forward="true" selection-start-line="30" selection-start-column="9" selection-end-line="30" selection-end-column="9" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#316#317#0" expanded="true" />
+            <element signature="e#346#347#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/sk/FEI/Kovalak/graphics/FileChooser.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="578">
+          <caret line="34" column="41" lean-forward="true" selection-start-line="34" selection-start-column="41" selection-end-line="34" selection-end-column="41" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#296#297#0" expanded="true" />
+            <element signature="e#344#345#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/sk/FEI/Kovalak/petrinet/Place.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="68">
+          <caret line="4" column="13" selection-start-line="4" selection-start-column="13" selection-end-line="4" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/sk/FEI/Kovalak/petrinet/Base.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="34">
+          <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/sk/FEI/Kovalak/petrinet/Transition.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="34">
+          <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/sk/FEI/Kovalak/petrinet/PetriNet.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="255">
-          <caret line="53" column="69" lean-forward="true" selection-start-line="53" selection-start-column="69" selection-end-line="53" selection-end-column="69" />
+        <state relative-caret-position="272">
+          <caret line="43" column="50" selection-start-line="43" selection-start-column="50" selection-end-line="43" selection-end-column="50" />
           <folding>
             <element signature="imports" expanded="true" />
             <element signature="method#runnability#0;class#PetriNet#0" />
+            <element signature="method#runTransition#0;class#PetriNet#0" />
             <element signature="method#testMissingElement#0;class#PetriNet#0" />
+            <element signature="method#testEdgeAlreadyCreated#0;class#PetriNet#0" />
             <element signature="method#checkId#0;class#PetriNet#0" />
             <element signature="method#printInfo#0;class#PetriNet#0" />
             <element signature="method#addTransition#0;class#PetriNet#0" />
@@ -397,164 +643,215 @@
             <element signature="method#getEdgePlaceToTransition#0;class#PetriNet#0" />
             <element signature="method#getEdgeTransitionToPlace#0;class#PetriNet#0" />
             <element signature="method#getEdgeReset#0;class#PetriNet#0" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/sk/FEI/Kovalak/petrinet/Edge.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="204">
-          <caret line="12" column="5" lean-forward="true" selection-start-line="12" selection-start-column="5" selection-end-line="12" selection-end-column="5" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/sk/FEI/Kovalak/graphics/Element2D.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="612">
-          <caret line="36" column="9" lean-forward="true" selection-start-line="36" selection-start-column="9" selection-end-line="36" selection-end-column="9" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/sk/FEI/Kovalak/graphics/FileChooser.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="170">
-          <caret line="10" column="5" lean-forward="true" selection-start-line="10" selection-start-column="5" selection-end-line="10" selection-end-column="5" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/sk/FEI/Kovalak/graphics/MyCanvas.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="136">
-          <caret line="8" column="13" selection-start-line="8" selection-start-column="13" selection-end-line="8" selection-end-column="13" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/sk/FEI/Kovalak/graphics/Place2D.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="68">
-          <caret line="4" column="13" selection-start-line="4" selection-start-column="13" selection-end-line="4" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/sk/FEI/Kovalak/graphics/Text2D.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="85">
-          <caret line="5" column="13" selection-start-line="5" selection-start-column="13" selection-end-line="5" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/sk/FEI/Kovalak/graphics/Transition2D.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="204">
-          <caret line="12" lean-forward="true" selection-start-line="12" selection-end-line="12" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/sk/FEI/Kovalak/generated/Arc.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-561">
-          <caret line="46" column="13" selection-start-line="46" selection-start-column="13" selection-end-line="46" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/sk/FEI/Kovalak/generated/ArcType.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="170">
-          <caret line="27" column="12" selection-start-line="27" selection-start-column="12" selection-end-line="27" selection-end-column="12" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/sk/FEI/Kovalak/generated/BreakPoint.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="219">
-          <caret line="34" column="13" selection-start-line="34" selection-start-column="13" selection-end-line="34" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/sk/FEI/Kovalak/generated/ObjectFactory.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="219">
-          <caret line="23" column="13" selection-start-line="23" selection-start-column="13" selection-end-line="23" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/sk/FEI/Kovalak/generated/Place.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="219">
-          <caret line="47" column="13" selection-start-line="47" selection-start-column="13" selection-end-line="47" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/sk/FEI/Kovalak/generated/Transition.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-573">
-          <caret line="39" column="13" selection-start-line="39" selection-start-column="13" selection-end-line="39" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/sk/FEI/Kovalak/graphics/Edge2D.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1008">
-          <caret line="76" lean-forward="true" selection-start-line="76" selection-end-line="76" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/sk/FEI/Kovalak/generated/Transformer.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="289">
-          <caret line="17" column="42" lean-forward="true" selection-start-line="17" selection-start-column="42" selection-end-line="17" selection-end-column="42" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/sk/FEI/Kovalak/generated/Importer.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="510">
-          <caret line="30" lean-forward="true" selection-start-line="30" selection-end-line="30" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#356#357#0" expanded="true" />
-            <element signature="e#388#389#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/sk/FEI/Kovalak/generated/Document.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="561">
-          <caret line="39" column="13" selection-start-line="39" selection-start-column="13" selection-end-line="39" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/sk/FEI/Kovalak/graphics/MyFrame.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1053">
-          <caret line="108" column="32" lean-forward="true" selection-start-line="108" selection-start-column="32" selection-end-line="108" selection-end-column="32" />
-          <folding>
-            <element signature="e#1498#1905#1" />
-            <element signature="e#1970#2374#1" />
-            <element signature="e#2471#3041#1" />
-            <element signature="e#3138#3708#1" />
-            <element signature="e#3769#4280#1" />
+            <element signature="method#getEdgePlaceToTransition#1;class#PetriNet#0" />
+            <element signature="method#getEdgeTransitionToPlace#1;class#PetriNet#0" />
+            <element signature="method#getEdgeReset#1;class#PetriNet#0" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/sk/FEI/Kovalak/Main.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="289">
-          <caret line="17" lean-forward="true" selection-start-line="17" selection-end-line="17" />
+        <state relative-caret-position="221">
+          <caret line="13" selection-start-line="13" selection-end-line="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/sk/FEI/Kovalak/graphics/buttons/AddEdgeButton.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="68">
+          <caret line="4" selection-start-line="4" selection-end-line="4" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/sk/FEI/Kovalak/graphics/buttons/AddTransitionButton.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="119">
+          <caret line="7" selection-start-line="7" selection-end-line="7" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/sk/FEI/Kovalak/graphics/buttons/DeleteButton.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="119">
+          <caret line="7" selection-start-line="7" selection-end-line="7" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/sk/FEI/Kovalak/graphics/buttons/ExportButton.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="136">
+          <caret line="8" selection-start-line="8" selection-end-line="8" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/sk/FEI/Kovalak/graphics/buttons/ImportButton.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="85">
+          <caret line="5" column="34" selection-start-line="5" selection-start-column="34" selection-end-line="5" selection-end-column="34" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/sk/FEI/Kovalak/graphics/buttons/MinusButton.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="119">
+          <caret line="7" selection-start-line="7" selection-end-line="7" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/sk/FEI/Kovalak/graphics/buttons/RunButton.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="102">
+          <caret line="6" column="34" selection-start-line="6" selection-start-column="34" selection-end-line="6" selection-end-column="34" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/sk/FEI/Kovalak/graphics/buttons/AddResetEdgeButton.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="221">
+          <caret line="13" column="35" lean-forward="true" selection-start-line="13" selection-start-column="35" selection-end-line="13" selection-end-column="35" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/sk/FEI/Kovalak/graphics/mouseListeners/AddEdgeML.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1156">
+          <caret line="77" column="47" selection-start-line="77" selection-start-column="24" selection-end-line="77" selection-end-column="47" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/sk/FEI/Kovalak/graphics/Transition2D.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="493">
+          <caret line="29" column="41" selection-start-line="28" selection-start-column="8" selection-end-line="29" selection-end-column="41" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/sk/FEI/Kovalak/graphics/buttons/AddPlaceButton.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="119">
+          <caret line="7" selection-start-line="7" selection-end-line="7" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/sk/FEI/Kovalak/graphics/MyFrame.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="841">
+          <caret line="97" column="33" selection-start-line="97" selection-start-column="33" selection-end-line="97" selection-end-column="33" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#5162#5163#0" expanded="true" />
+            <element signature="e#5193#5194#0" expanded="true" />
+            <element signature="e#5242#5243#0" expanded="true" />
+            <element signature="e#5282#5283#0" expanded="true" />
+            <element signature="e#5318#5319#0" expanded="true" />
+            <element signature="e#5347#5348#0" expanded="true" />
+            <element signature="e#5384#5385#0" expanded="true" />
+            <element signature="e#5415#5416#0" expanded="true" />
+            <element signature="e#5465#5466#0" expanded="true" />
+            <element signature="e#5505#5506#0" expanded="true" />
+            <element signature="e#5553#5554#0" expanded="true" />
+            <element signature="e#5595#5596#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/sk/FEI/Kovalak/graphics/MyCanvas.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="442">
+          <caret line="36" selection-start-line="36" selection-end-line="36" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/sk/FEI/Kovalak/graphics/buttons/BaseButton.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="340">
+          <caret line="24" selection-start-line="24" selection-end-line="24" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/sk/FEI/Kovalak/graphics/buttons/PlusButton.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="272">
+          <caret line="20" column="5" selection-start-line="14" selection-start-column="3" selection-end-line="20" selection-end-column="5" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/sk/FEI/Kovalak/graphics/mouseListeners/AddPlaceML.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="68">
+          <caret line="8" column="13" selection-start-line="8" selection-start-column="13" selection-end-line="8" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/sk/FEI/Kovalak/graphics/IdGenerator.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="68">
+          <caret line="5" column="13" selection-start-line="5" selection-start-column="13" selection-end-line="5" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/sk/FEI/Kovalak/graphics/Element2D.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="646">
+          <caret line="38" column="5" selection-start-line="38" selection-start-column="5" selection-end-line="38" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/sk/FEI/Kovalak/graphics/mouseListeners/AddResetEdgeML.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="102">
+          <caret line="6" column="39" selection-start-line="6" selection-start-column="39" selection-end-line="6" selection-end-column="39" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/sk/FEI/Kovalak/graphics/Place2D.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="425">
+          <caret line="27" column="1" selection-start-line="27" selection-start-column="1" selection-end-line="27" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/sk/FEI/Kovalak/graphics/mouseListeners/MouseListenerComponent.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="561">
+          <caret line="41" selection-start-line="41" selection-end-line="41" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>

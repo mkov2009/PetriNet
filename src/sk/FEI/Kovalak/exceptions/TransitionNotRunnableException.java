@@ -1,6 +1,6 @@
-package sk.FEI.Kovalak.petrinet;
+package sk.FEI.Kovalak.exceptions;
 
-public class MissingElementException extends Exception {
+public class TransitionNotRunnableException extends Exception{
     private String errorMessage;
 
     public String getErrorMessage() {
@@ -11,7 +11,7 @@ public class MissingElementException extends Exception {
         this.errorMessage = errorMessage;
     }
 
-    public MissingElementException(String errorMessage){
+    public TransitionNotRunnableException(String errorMessage){
         this.setErrorMessage(errorMessage);
-}
+    }
 }
